@@ -1,4 +1,5 @@
 import { combineReducers, configureStore, Reducer } from '@reduxjs/toolkit';
+import authReducer, { authSlice } from 'features/auth/slice';
 import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux';
 import {
   FLUSH,
@@ -12,7 +13,9 @@ import {
 import { RESET_STATE_ACTION_TYPE } from './actions/resetState';
 import { unauthenticatedMiddleware } from './middleware/unauthenticatedMiddleware';
 
-const reducers = {};
+const reducers = {
+  [authSlice.name]: authReducer,
+};
 
 const combinedReducer = combineReducers<typeof reducers>(reducers);
 
