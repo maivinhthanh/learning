@@ -13,10 +13,19 @@ const routes: RouteObject[] = [
         index: true,
         element: <HomePage />,
       },
-      
+      {
+        path: '/about-me',
+        element: <HomePage />,
+      },
+      {
+        path: '/project',
+        element: <HomePage />,
+      },
       { path: `*`, element: <NotFound /> },
     ],
   },
+
+  { path: `*`, element: <NotFound /> },
 ];
 
 export const MainRoutes = () => {

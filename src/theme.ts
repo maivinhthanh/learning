@@ -7,9 +7,6 @@ const theme = createTheme({
       default: '#000000',
     },
     primary: {
-      main: '#ffffff',
-    },
-    secondary: {
       main: '#EC008C',
       light: '#FC6767',
     },
@@ -26,6 +23,16 @@ const theme = createTheme({
         maxWidth: 'md',
       },
     },
+    // MuiButton: {
+    //   variants: [
+    //     {
+    //       props: { variant: 'contained' },
+    //       style: {
+    //         color: 'black'
+    //       },
+    //     },
+    //   ],
+    // },
   },
 });
 

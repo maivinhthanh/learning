@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'SVN Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  src: local('SVN Gilroy'),
+    url('../assets/fonts/Manrope-Regular.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SVN Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  src: local('SVN Gilroy'),
+    url('../assets/fonts/Manrope-Medium.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SVN Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  src: local('SVN Gilroy'),
+    url('../assets/fonts/Manrope-SemiBold.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SVN Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  src: local('SVN Gilroy'),
+    url('../assets/fonts/Manrope-Bold.ttf') format('opentype');
+}
+
+body {
+  @apply min-w-[320px] scroll-smooth font-sans;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
