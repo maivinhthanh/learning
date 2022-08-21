@@ -1,4 +1,4 @@
-import HomeLayout from 'components/layouts/HomeLayout';
+import EmptyLayout from 'components/layouts/EmptyLayout';
 import RequireAuth from 'components/RequireAuth';
 import HomePage from 'pages/HomePage';
 import NotFound from 'pages/NotFound';
@@ -7,7 +7,7 @@ import { RouteObject, useRoutes } from 'react-router-dom';
 const routes: RouteObject[] = [
   {
     path: '/',
-    element: <HomeLayout />,
+    element: <EmptyLayout />,
     children: [
       {
         index: true,

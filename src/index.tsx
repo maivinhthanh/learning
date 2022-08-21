@@ -6,6 +6,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'styles/global.css';
 
+// When Gilroy is loaded, add a font-family using Gilroy to the body
+
 const container = document.getElementById('root')!;
 const root = createRoot(container);
 

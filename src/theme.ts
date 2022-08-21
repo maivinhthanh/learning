@@ -12,6 +12,9 @@ const theme = createTheme({
     },
   },
   typography: {
+    fontFamily: [
+      'Manrope'
+    ].join(','),
     subtitle1: {
       color: '#999999',
       textTransform: 'uppercase',

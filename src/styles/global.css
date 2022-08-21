@@ -1,38 +1,38 @@
 @font-face {
-  font-family: 'SVN Gilroy';
-  font-style: normal;
+  font-family: 'Manrope';
   font-weight: 400;
-  src: local('SVN Gilroy'),
-    url('../assets/fonts/Manrope-Regular.ttf') format('opentype');
+  src: local('Manrope'),
+    url('../assets/fonts/Manrope-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'SVN Gilroy';
-  font-style: normal;
+  font-family: 'Manrope';
   font-weight: 500;
-  src: local('SVN Gilroy'),
-    url('../assets/fonts/Manrope-Medium.ttf') format('opentype');
+  src: local('Manrope'),
+    url('../assets/fonts/Manrope-Medium.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'SVN Gilroy';
-  font-style: normal;
+  font-family: 'Manrope';
   font-weight: 600;
-  src: local('SVN Gilroy'),
-    url('../assets/fonts/Manrope-SemiBold.ttf') format('opentype');
+  src: local('Manrope'),
+    url('../assets/fonts/Manrope-SemiBold.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'SVN Gilroy';
-  font-style: normal;
+  font-family: 'Manrope';
   font-weight: 700;
-  src: local('SVN Gilroy'),
-    url('../assets/fonts/Manrope-Bold.ttf') format('opentype');
+  src: local('Manrope'),
+    url('../assets/fonts/Manrope-Bold.ttf') format('truetype');
 }
 
 body {
-  @apply min-w-[320px] scroll-smooth font-sans;
+  @apply min-w-[320px] scroll-smooth;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.font-manrope{
+  font-family: 'Manrope';
 }
