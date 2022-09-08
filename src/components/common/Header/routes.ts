@@ -1,5 +1,5 @@
 export const ROUTES = [
   { label: 'Home', path: '/' },
-  { label: 'About me', path: '/about-me' },
+  { label: 'Create sticker', path: '/create-sticker' },
   { label: 'Project', path: '/project' },
 ];

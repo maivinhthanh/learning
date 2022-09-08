@@ -12,7 +12,6 @@ const HomeLayout: React.FC = () => {
         <Box component='main' flexGrow={1}>
           {<Outlet />}
         </Box>
-        <Footer />
       </Stack>
     </Container>
   );

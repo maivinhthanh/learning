@@ -1,5 +1,6 @@
 import EmptyLayout from 'components/layouts/EmptyLayout';
 import RequireAuth from 'components/RequireAuth';
+import CreateStiker from 'features/createSticker/CreateStiker';
 import HomePage from 'pages/HomePage';
 import NotFound from 'pages/NotFound';
 import { RouteObject, useRoutes } from 'react-router-dom';
@@ -14,8 +15,8 @@ const routes: RouteObject[] = [
         element: <HomePage />,
       },
       {
-        path: '/about-me',
-        element: <HomePage />,
+        path: '/create-sticker',
+        element: <CreateStiker />,
       },
       {
         path: '/project',
