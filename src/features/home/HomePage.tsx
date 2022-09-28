@@ -27,6 +27,7 @@ const HomePage: React.FC = () => {
               variant='h2'
               gutterBottom
               sx={{ width: 380, marginLeft: -16 }}
+              data-testid="title"
             >
               We turn ideas
             </Typography>
